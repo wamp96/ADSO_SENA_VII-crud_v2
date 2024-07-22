@@ -1,0 +1,1295 @@
+INFO - 2024-07-18 00:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 00:01:26 --> ErrorException: Undefined variable $UserStatus
+[Method: GET, Route: userElement/]
+in APPPATH\Views\userElement\table.php on line 12.
+ 1 APPPATH\Views\userElement\table.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UserStatus', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\userElement\\table.php', 12)
+ 2 APPPATH\Views\userElement\userElement_view.php(34): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\userElement\\table.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\userElement\\userElement_view.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('userElement/userElement_view', [], true)
+ 6 APPPATH\Controllers\UserElement.php(49): view('userElement/userElement_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserElement->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserElement))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 00:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 00:05:02 --> ErrorException: Undefined array key "User_status_id"
+[Method: GET, Route: userElement/]
+in APPPATH\Views\userElement\table.php on line 15.
+ 1 APPPATH\Views\userElement\table.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "User_status_id"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\userElement\\table.php', 15)
+ 2 APPPATH\Views\userElement\userElement_view.php(34): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\userElement\\table.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\userElement\\userElement_view.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('userElement/userElement_view', [], true)
+ 6 APPPATH\Controllers\UserElement.php(49): view('userElement/userElement_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserElement->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserElement))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 00:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 00:05:37 --> ErrorException: Undefined array key "User_status_id"
+[Method: GET, Route: userElement/]
+in APPPATH\Views\userElement\table.php on line 18.
+ 1 APPPATH\Views\userElement\table.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "User_status_id"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\userElement\\table.php', 18)
+ 2 APPPATH\Views\userElement\userElement_view.php(34): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\userElement\\table.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\userElement\\userElement_view.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('userElement/userElement_view', [], true)
+ 6 APPPATH\Controllers\UserElement.php(49): view('userElement/userElement_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserElement->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserElement))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 00:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 00:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 00:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-18 00:17:51 --> mysqli_sql_exception: Unknown column 'us.Area_name' in 'field list' in C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(308): mysqli->query('CALL sp_users_e...', 0)
+#1 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_users_e...')
+#2 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_users_e...')
+#3 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\app\Models\UserElementModel.php(27): CodeIgniter\Database\BaseConnection->query('CALL sp_users_e...')
+#4 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\app\Controllers\UserElement.php(46): App\Models\UserElementModel->sp_users_elements()
+#5 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\UserElement->index()
+#6 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserElement))
+#7 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-07-18 00:17:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'us.Area_name' in 'field list'
+[Method: GET, Route: userElement/]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\UserElementModel.php(27): CodeIgniter\Database\BaseConnection->query('CALL sp_users_elements();')
+ 2 APPPATH\Controllers\UserElement.php(46): App\Models\UserElementModel->sp_users_elements()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserElement->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserElement))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+CRITICAL - 2024-07-18 00:17:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'us.Area_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_users_elements();')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_users_elements();')
+ 3 APPPATH\Models\UserElementModel.php(27): CodeIgniter\Database\BaseConnection->query('CALL sp_users_elements();')
+ 4 APPPATH\Controllers\UserElement.php(46): App\Models\UserElementModel->sp_users_elements()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserElement->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserElement))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+CRITICAL - 2024-07-18 00:17:51 --> [Caused by] mysqli_sql_exception: Unknown column 'us.Area_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('CALL sp_users_elements();', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_users_elements();')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_users_elements();')
+ 4 APPPATH\Models\UserElementModel.php(27): CodeIgniter\Database\BaseConnection->query('CALL sp_users_elements();')
+ 5 APPPATH\Controllers\UserElement.php(46): App\Models\UserElementModel->sp_users_elements()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserElement->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserElement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 00:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 00:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 00:20:25 --> ErrorException: Undefined array key "Area_name"
+[Method: GET, Route: userElement/]
+in APPPATH\Views\userElement\table.php on line 21.
+ 1 APPPATH\Views\userElement\table.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Area_name"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\userElement\\table.php', 21)
+ 2 APPPATH\Views\userElement\userElement_view.php(34): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\userElement\\table.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\userElement\\userElement_view.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('userElement/userElement_view', [], true)
+ 6 APPPATH\Controllers\UserElement.php(49): view('userElement/userElement_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserElement->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserElement))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 00:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 00:22:47 --> ErrorException: Undefined array key "Area_name"
+[Method: GET, Route: userElement/]
+in APPPATH\Views\userElement\table.php on line 21.
+ 1 APPPATH\Views\userElement\table.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Area_name"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\userElement\\table.php', 21)
+ 2 APPPATH\Views\userElement\userElement_view.php(34): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\userElement\\table.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\userElement\\userElement_view.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('userElement/userElement_view', [], true)
+ 6 APPPATH\Controllers\UserElement.php(49): view('userElement/userElement_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserElement->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserElement))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 00:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 00:28:39 --> ErrorException: Undefined array key "Area_name"
+[Method: GET, Route: userElement/]
+in APPPATH\Views\userElement\table.php on line 21.
+ 1 APPPATH\Views\userElement\table.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Area_name"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\userElement\\table.php', 21)
+ 2 APPPATH\Views\userElement\userElement_view.php(34): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\userElement\\table.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\userElement\\userElement_view.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('userElement/userElement_view', [], true)
+ 6 APPPATH\Controllers\UserElement.php(49): view('userElement/userElement_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserElement->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserElement))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 00:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 00:28:41 --> ErrorException: Undefined array key "Area_name"
+[Method: GET, Route: userElement/]
+in APPPATH\Views\userElement\table.php on line 21.
+ 1 APPPATH\Views\userElement\table.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Area_name"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\userElement\\table.php', 21)
+ 2 APPPATH\Views\userElement\userElement_view.php(34): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\userElement\\table.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\userElement\\userElement_view.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('userElement/userElement_view', [], true)
+ 6 APPPATH\Controllers\UserElement.php(49): view('userElement/userElement_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserElement->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserElement))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 00:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 00:28:42 --> ErrorException: Undefined array key "Area_name"
+[Method: GET, Route: userElement/]
+in APPPATH\Views\userElement\table.php on line 21.
+ 1 APPPATH\Views\userElement\table.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Area_name"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\userElement\\table.php', 21)
+ 2 APPPATH\Views\userElement\userElement_view.php(34): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\userElement\\table.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\userElement\\userElement_view.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('userElement/userElement_view', [], true)
+ 6 APPPATH\Controllers\UserElement.php(49): view('userElement/userElement_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserElement->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserElement))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 00:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 00:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 00:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 00:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 00:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 00:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 00:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 00:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 00:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 00:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 00:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 00:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 01:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 01:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 01:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 01:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 01:45:08 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: request/view]
+in APPPATH\Views\request\table.php on line 19.
+ 1 APPPATH\Views\request\request_view.php(31): require_once()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\request_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('request/request_view', [], true)
+ 5 APPPATH\Controllers\Request.php(59): view('request/request_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 01:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 01:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 01:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 01:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 01:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 01:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 01:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 01:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 01:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 01:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 01:51:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: request/view]
+in APPPATH\Controllers\Request.php on line 55.
+ 1 APPPATH\Controllers\Request.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Controllers\\Request.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 01:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 01:51:13 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: request/view]
+in APPPATH\Controllers\Request.php on line 55.
+ 1 APPPATH\Controllers\Request.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Controllers\\Request.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 01:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 01:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 01:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 01:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 01:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 01:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 01:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 01:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 01:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 02:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 02:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 02:00:31 --> ErrorException: Undefined array key "User_fk"
+[Method: GET, Route: request/view]
+in APPPATH\Controllers\Request.php on line 55.
+ 1 APPPATH\Controllers\Request.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "User_fk"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Controllers\\Request.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 02:00:31 --> ErrorException: Undefined array key "User_fk"
+[Method: GET, Route: request/view]
+in APPPATH\Controllers\Request.php on line 55.
+ 1 APPPATH\Controllers\Request.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "User_fk"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Controllers\\Request.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 02:02:44 --> BadMethodCallException: Call to undefined method App\Models\RequestModel::sp_requests_id
+[Method: GET, Route: request/view]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Request.php(55): CodeIgniter\Model->__call('sp_requests_id', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-18 02:03:28 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0 in C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(308): mysqli->query('CALL sp_request...', 0)
+#1 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_request...')
+#2 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_request...')
+#3 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\app\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_request...')
+#4 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\app\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+#5 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+#6 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+#7 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-07-18 02:03:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+[Method: GET, Route: request/view]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 2 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+CRITICAL - 2024-07-18 02:03:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_requests_id();')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_requests_id();')
+ 3 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 4 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+CRITICAL - 2024-07-18 02:03:28 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('CALL sp_requests_id();', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_requests_id();')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_requests_id();')
+ 4 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 5 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-18 02:03:30 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0 in C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(308): mysqli->query('CALL sp_request...', 0)
+#1 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_request...')
+#2 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_request...')
+#3 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\app\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_request...')
+#4 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\app\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+#5 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+#6 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+#7 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-07-18 02:03:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+[Method: GET, Route: request/view]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 2 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+CRITICAL - 2024-07-18 02:03:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_requests_id();')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_requests_id();')
+ 3 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 4 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+CRITICAL - 2024-07-18 02:03:30 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('CALL sp_requests_id();', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_requests_id();')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_requests_id();')
+ 4 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 5 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-18 02:03:31 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0 in C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(308): mysqli->query('CALL sp_request...', 0)
+#1 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_request...')
+#2 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_request...')
+#3 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\app\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_request...')
+#4 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\app\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+#5 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+#6 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+#7 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-07-18 02:03:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+[Method: GET, Route: request/view]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 2 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+CRITICAL - 2024-07-18 02:03:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_requests_id();')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_requests_id();')
+ 3 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 4 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+CRITICAL - 2024-07-18 02:03:31 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('CALL sp_requests_id();', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_requests_id();')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_requests_id();')
+ 4 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 5 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-18 02:03:31 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0 in C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(308): mysqli->query('CALL sp_request...', 0)
+#1 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_request...')
+#2 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_request...')
+#3 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\app\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_request...')
+#4 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\app\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+#5 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+#6 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+#7 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-07-18 02:03:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+[Method: GET, Route: request/view]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 2 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+CRITICAL - 2024-07-18 02:03:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_requests_id();')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_requests_id();')
+ 3 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 4 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+CRITICAL - 2024-07-18 02:03:31 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('CALL sp_requests_id();', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_requests_id();')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_requests_id();')
+ 4 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 5 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 02:05:27 --> ErrorException: Undefined array key "userId"
+[Method: GET, Route: request/view]
+in APPPATH\Controllers\Request.php on line 55.
+ 1 APPPATH\Controllers\Request.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userId"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Controllers\\Request.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 02:05:28 --> ErrorException: Undefined array key "userId"
+[Method: GET, Route: request/view]
+in APPPATH\Controllers\Request.php on line 55.
+ 1 APPPATH\Controllers\Request.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userId"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Controllers\\Request.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 02:05:29 --> ErrorException: Undefined array key "userId"
+[Method: GET, Route: request/view]
+in APPPATH\Controllers\Request.php on line 55.
+ 1 APPPATH\Controllers\Request.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userId"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Controllers\\Request.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 02:05:29 --> ErrorException: Undefined array key "userId"
+[Method: GET, Route: request/view]
+in APPPATH\Controllers\Request.php on line 55.
+ 1 APPPATH\Controllers\Request.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userId"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Controllers\\Request.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 02:05:29 --> ErrorException: Undefined array key "userId"
+[Method: GET, Route: request/view]
+in APPPATH\Controllers\Request.php on line 55.
+ 1 APPPATH\Controllers\Request.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userId"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Controllers\\Request.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 02:05:30 --> ErrorException: Undefined array key "userId"
+[Method: GET, Route: request/view]
+in APPPATH\Controllers\Request.php on line 55.
+ 1 APPPATH\Controllers\Request.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userId"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Controllers\\Request.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 02:06:59 --> ErrorException: Undefined array key "IDuser"
+[Method: GET, Route: request/view]
+in APPPATH\Controllers\Request.php on line 55.
+ 1 APPPATH\Controllers\Request.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "IDuser"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Controllers\\Request.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 02:07:00 --> ErrorException: Undefined array key "IDuser"
+[Method: GET, Route: request/view]
+in APPPATH\Controllers\Request.php on line 55.
+ 1 APPPATH\Controllers\Request.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "IDuser"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Controllers\\Request.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 02:07:00 --> ErrorException: Undefined array key "IDuser"
+[Method: GET, Route: request/view]
+in APPPATH\Controllers\Request.php on line 55.
+ 1 APPPATH\Controllers\Request.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "IDuser"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Controllers\\Request.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 02:08:44 --> ErrorException: Undefined array key "User_fk"
+[Method: GET, Route: request/view]
+in APPPATH\Controllers\Request.php on line 55.
+ 1 APPPATH\Controllers\Request.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "User_fk"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Controllers\\Request.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 02:08:46 --> ErrorException: Undefined array key "User_fk"
+[Method: GET, Route: request/view]
+in APPPATH\Controllers\Request.php on line 55.
+ 1 APPPATH\Controllers\Request.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "User_fk"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Controllers\\Request.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 02:08:46 --> ErrorException: Undefined array key "User_fk"
+[Method: GET, Route: request/view]
+in APPPATH\Controllers\Request.php on line 55.
+ 1 APPPATH\Controllers\Request.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "User_fk"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Controllers\\Request.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-18 02:09:05 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0 in C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(308): mysqli->query('CALL sp_request...', 0)
+#1 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_request...')
+#2 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_request...')
+#3 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\app\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_request...')
+#4 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\app\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+#5 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+#6 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+#7 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-07-18 02:09:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+[Method: GET, Route: request/view]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 2 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+CRITICAL - 2024-07-18 02:09:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_requests_id();')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_requests_id();')
+ 3 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 4 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+CRITICAL - 2024-07-18 02:09:05 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('CALL sp_requests_id();', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_requests_id();')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_requests_id();')
+ 4 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 5 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-18 02:09:24 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0 in C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(308): mysqli->query('CALL sp_request...', 0)
+#1 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_request...')
+#2 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_request...')
+#3 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\app\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_request...')
+#4 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\app\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id('3')
+#5 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+#6 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+#7 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-07-18 02:09:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+[Method: GET, Route: request/view]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 2 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id('3')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+CRITICAL - 2024-07-18 02:09:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_requests_id();')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_requests_id();')
+ 3 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 4 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id('3')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+CRITICAL - 2024-07-18 02:09:24 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('CALL sp_requests_id();', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_requests_id();')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_requests_id();')
+ 4 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 5 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id('3')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-18 02:09:25 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0 in C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(308): mysqli->query('CALL sp_request...', 0)
+#1 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_request...')
+#2 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_request...')
+#3 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\app\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_request...')
+#4 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\app\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id('3')
+#5 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+#6 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+#7 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-07-18 02:09:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+[Method: GET, Route: request/view]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 2 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id('3')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+CRITICAL - 2024-07-18 02:09:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_requests_id();')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_requests_id();')
+ 3 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 4 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id('3')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+CRITICAL - 2024-07-18 02:09:26 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('CALL sp_requests_id();', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_requests_id();')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_requests_id();')
+ 4 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 5 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id('3')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-18 02:09:26 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0 in C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(308): mysqli->query('CALL sp_request...', 0)
+#1 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_request...')
+#2 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_request...')
+#3 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\app\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_request...')
+#4 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\app\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id('3')
+#5 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+#6 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+#7 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-07-18 02:09:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+[Method: GET, Route: request/view]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 2 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id('3')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+CRITICAL - 2024-07-18 02:09:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_requests_id();')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_requests_id();')
+ 3 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 4 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id('3')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+CRITICAL - 2024-07-18 02:09:26 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('CALL sp_requests_id();', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_requests_id();')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_requests_id();')
+ 4 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 5 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id('3')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-18 02:09:30 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0 in C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(308): mysqli->query('CALL sp_request...', 0)
+#1 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_request...')
+#2 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_request...')
+#3 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\app\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_request...')
+#4 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\app\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+#5 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+#6 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+#7 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-07-18 02:09:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+[Method: GET, Route: request/view]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 2 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+CRITICAL - 2024-07-18 02:09:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_requests_id();')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_requests_id();')
+ 3 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 4 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+CRITICAL - 2024-07-18 02:09:30 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('CALL sp_requests_id();', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_requests_id();')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_requests_id();')
+ 4 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 5 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-18 02:13:19 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0 in C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(308): mysqli->query('CALL sp_request...', 0)
+#1 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_request...')
+#2 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_request...')
+#3 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\app\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_request...')
+#4 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\app\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+#5 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+#6 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+#7 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-07-18 02:13:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+[Method: GET, Route: request/view]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 2 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+CRITICAL - 2024-07-18 02:13:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_requests_id();')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_requests_id();')
+ 3 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 4 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+CRITICAL - 2024-07-18 02:13:19 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('CALL sp_requests_id();', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_requests_id();')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_requests_id();')
+ 4 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 5 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-18 02:13:20 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0 in C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(308): mysqli->query('CALL sp_request...', 0)
+#1 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_request...')
+#2 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_request...')
+#3 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\app\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_request...')
+#4 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\app\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+#5 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+#6 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+#7 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-07-18 02:13:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+[Method: GET, Route: request/view]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 2 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+CRITICAL - 2024-07-18 02:13:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_requests_id();')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_requests_id();')
+ 3 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 4 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+CRITICAL - 2024-07-18 02:13:20 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('CALL sp_requests_id();', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_requests_id();')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_requests_id();')
+ 4 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 5 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-18 02:13:20 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0 in C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(308): mysqli->query('CALL sp_request...', 0)
+#1 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_request...')
+#2 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_request...')
+#3 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\app\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_request...')
+#4 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\app\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+#5 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+#6 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+#7 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\ADSO_SENA_VII-crud_v2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-07-18 02:13:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+[Method: GET, Route: request/view]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 2 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+CRITICAL - 2024-07-18 02:13:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_requests_id();')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_requests_id();')
+ 3 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 4 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+CRITICAL - 2024-07-18 02:13:20 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE api_proyecto.sp_requests_id; expected 1, got 0
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('CALL sp_requests_id();', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_requests_id();')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_requests_id();')
+ 4 APPPATH\Models\RequestModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_requests_id();')
+ 5 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 02:20:53 --> ErrorException: Undefined variable $id
+[Method: GET, Route: request/view]
+in APPPATH\Models\RequestModel.php on line 38.
+ 1 APPPATH\Models\RequestModel.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Models\\RequestModel.php', 38)
+ 2 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 02:20:55 --> ErrorException: Undefined variable $id
+[Method: GET, Route: request/view]
+in APPPATH\Models\RequestModel.php on line 38.
+ 1 APPPATH\Models\RequestModel.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Models\\RequestModel.php', 38)
+ 2 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 02:20:56 --> ErrorException: Undefined variable $id
+[Method: GET, Route: request/view]
+in APPPATH\Models\RequestModel.php on line 38.
+ 1 APPPATH\Models\RequestModel.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Models\\RequestModel.php', 38)
+ 2 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 02:20:56 --> ErrorException: Undefined variable $id
+[Method: GET, Route: request/view]
+in APPPATH\Models\RequestModel.php on line 38.
+ 1 APPPATH\Models\RequestModel.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Models\\RequestModel.php', 38)
+ 2 APPPATH\Controllers\Request.php(55): App\Models\RequestModel->sp_requests_id(3)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 02:21:19 --> ErrorException: Undefined array key "User_documento"
+[Method: GET, Route: request/view]
+in APPPATH\Views\request\table.php on line 21.
+ 1 APPPATH\Views\request\table.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "User_documento"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\table.php', 21)
+ 2 APPPATH\Views\request\request_view.php(31): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\table.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\request_view.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('request/request_view', [], true)
+ 6 APPPATH\Controllers\Request.php(59): view('request/request_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 02:21:20 --> ErrorException: Undefined array key "User_documento"
+[Method: GET, Route: request/view]
+in APPPATH\Views\request\table.php on line 21.
+ 1 APPPATH\Views\request\table.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "User_documento"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\table.php', 21)
+ 2 APPPATH\Views\request\request_view.php(31): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\table.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\request_view.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('request/request_view', [], true)
+ 6 APPPATH\Controllers\Request.php(59): view('request/request_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 02:21:21 --> ErrorException: Undefined array key "User_documento"
+[Method: GET, Route: request/view]
+in APPPATH\Views\request\table.php on line 21.
+ 1 APPPATH\Views\request\table.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "User_documento"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\table.php', 21)
+ 2 APPPATH\Views\request\request_view.php(31): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\table.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\request_view.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('request/request_view', [], true)
+ 6 APPPATH\Controllers\Request.php(59): view('request/request_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 02:21:21 --> ErrorException: Undefined array key "User_documento"
+[Method: GET, Route: request/view]
+in APPPATH\Views\request\table.php on line 21.
+ 1 APPPATH\Views\request\table.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "User_documento"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\table.php', 21)
+ 2 APPPATH\Views\request\request_view.php(31): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\table.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\request_view.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('request/request_view', [], true)
+ 6 APPPATH\Controllers\Request.php(59): view('request/request_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 02:21:22 --> ErrorException: Undefined array key "User_documento"
+[Method: GET, Route: request/view]
+in APPPATH\Views\request\table.php on line 21.
+ 1 APPPATH\Views\request\table.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "User_documento"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\table.php', 21)
+ 2 APPPATH\Views\request\request_view.php(31): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\table.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\request_view.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('request/request_view', [], true)
+ 6 APPPATH\Controllers\Request.php(59): view('request/request_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 02:21:48 --> ErrorException: Undefined array key "Request_status_name"
+[Method: GET, Route: request/view]
+in APPPATH\Views\request\table.php on line 25.
+ 1 APPPATH\Views\request\table.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Request_status_name"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\table.php', 25)
+ 2 APPPATH\Views\request\request_view.php(31): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\table.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\request_view.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('request/request_view', [], true)
+ 6 APPPATH\Controllers\Request.php(59): view('request/request_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->viewRequest()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 02:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 20:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 20:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 20:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 20:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 20:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 20:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 20:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 21:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 21:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 21:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 21:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 21:33:52 --> ErrorException: Undefined property: App\Controllers\UserElement::$requestModel
+[Method: GET, Route: userElement/view]
+in APPPATH\Controllers\UserElement.php on line 54.
+ 1 APPPATH\Controllers\UserElement.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserElement::$requestModel', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Controllers\\UserElement.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserElement->viewElement()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserElement))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-18 21:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 21:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 21:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 21:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 21:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 21:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 21:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 21:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 21:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 21:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

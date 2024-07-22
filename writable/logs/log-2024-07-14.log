@@ -1,0 +1,90 @@
+INFO - 2024-07-14 21:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-14 21:57:43 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: request/]
+in APPPATH\Controllers\Request.php on line 49.
+ 1 APPPATH\Controllers\Request.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Controllers\\Request.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-14 22:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-14 22:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-14 22:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-14 22:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-14 22:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-14 22:21:13 --> ErrorException: Undefined array key "Request_numero"
+[Method: GET, Route: request/]
+in APPPATH\Views\request\table.php on line 18.
+ 1 APPPATH\Views\request\table.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Request_numero"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\table.php', 18)
+ 2 APPPATH\Views\request\request_view.php(31): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\table.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\request_view.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('request/request_view', [], true)
+ 6 APPPATH\Controllers\Request.php(53): view('request/request_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-14 22:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-14 22:26:10 --> ErrorException: Undefined array key "Request_numero"
+[Method: GET, Route: request/]
+in APPPATH\Views\request\table.php on line 18.
+ 1 APPPATH\Views\request\table.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Request_numero"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\table.php', 18)
+ 2 APPPATH\Views\request\request_view.php(31): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\table.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\request_view.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('request/request_view', [], true)
+ 6 APPPATH\Controllers\Request.php(53): view('request/request_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-14 22:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-14 22:26:28 --> ErrorException: Undefined array key "Request_status_name"
+[Method: GET, Route: request/]
+in APPPATH\Views\request\table.php on line 21.
+ 1 APPPATH\Views\request\table.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Request_status_name"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\table.php', 21)
+ 2 APPPATH\Views\request\request_view.php(31): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\table.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\request_view.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('request/request_view', [], true)
+ 6 APPPATH\Controllers\Request.php(53): view('request/request_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-14 22:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-14 22:28:33 --> ErrorException: Undefined array key "Request_status_name"
+[Method: GET, Route: request/]
+in APPPATH\Views\request\table.php on line 21.
+ 1 APPPATH\Views\request\table.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Request_status_name"', 'C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\table.php', 21)
+ 2 APPPATH\Views\request\request_view.php(31): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\table.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\request_view.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('request/request_view', [], true)
+ 6 APPPATH\Controllers\Request.php(53): view('request/request_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-14 22:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-14 22:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-14 22:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-14 22:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-14 22:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-14 22:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

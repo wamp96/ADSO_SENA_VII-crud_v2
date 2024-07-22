@@ -1,0 +1,35 @@
+INFO - 2024-07-13 00:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 00:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 00:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 00:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-13 00:05:03 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: request/]
+in APPPATH\Views\request\table.php on line 17.
+ 1 APPPATH\Views\request\request_view.php(31): require_once()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\request_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('request/request_view', [], true)
+ 5 APPPATH\Controllers\Request.php(54): view('request/request_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
+INFO - 2024-07-13 00:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-13 00:17:24 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: request/]
+in APPPATH\Views\request\table.php on line 17.
+ 1 APPPATH\Views\request\request_view.php(31): require_once()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\app\\Views\\request\\request_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('request/request_view', [], true)
+ 5 APPPATH\Controllers\Request.php(54): view('request/request_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Request->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ADSO_SENA_VII-crud_v2\\public\\index.php')
