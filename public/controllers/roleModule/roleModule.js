@@ -34,6 +34,12 @@ function add() {
   mainApp.showModal();
 }
 
+function showModules(id, idRoleModule){
+  mainApp.disabledFormAll();
+  mainApp.resetForm();
+  btnEnabled(true);
+  getDataModuleId(id, idRoleModule);
+}
 
 function editModules(id, idRoleModule) {
   mainApp.resetForm();
@@ -78,6 +84,28 @@ function editPermissions(id, idRoleModule) {
   btnEnabled(false);
   getDataPermissionId(id, idRoleModule);
 }
+
+
+async function delete_(id){
+  method = 'GET';
+  url = URI_ROLE_MODULE + LIST_CRUD[3] + '/' + id;
+  data = "";
+  if(confirm(textConfirm)==true){
+      returnFetch = getData(data, method,url);
+      returnFetch.then(response => response.json())
+      .then(data => {
+          //console.log(data);
+          reloadPage();
+      })
+      .catch(error => {
+          console.error(error);
+          mainApp.hiddenPreload();
+      })
+      .finally();
+  }
+}
+
+
 
 async function getDataPermissionId(id, idRoleModule) {
   method = 'GET';

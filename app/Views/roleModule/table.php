@@ -18,9 +18,9 @@
             <td>
               <div class="btn-group" role="group" aria-label="Basic mixed styles example">
                 <button type="button" title="Button Edit User Status" 
-                onclick="editModules(<?php echo $obj['Roles_fk']; ?>,<?php echo $obj['RoleModules_id']; ?>)" class="btn btn-warning btn-actions"><i class="bi bi-pencil-square" style="color:white"></i> </button>
+                onclick="showModules(<?php echo $obj['Roles_fk']; ?>,<?php echo $obj['RoleModules_id']; ?>)" class="btn btn-warning btn-actions"><i class="bi bi-pencil-square" style="color:white"></i> </button>
                 <button type="button" title="Button Show User Status" 
-                onclick="editPermissions(<?php echo $obj['Modules_fk']; ?>,<?php echo $obj['RoleModules_id']; ?>)" class="btn btn-info btn-actions"><i class="bi bi-shield-lock-fill"></i></button>
+                onclick="editModules(<?php echo $obj['Modules_fk']; ?>,<?php echo $obj['RoleModules_id']; ?>)" class="btn btn-info btn-actions"><i class="bi bi-shield-lock-fill"></i></button>
                 <button type="button" title="Button Delete User Status" 
                 onclick="delete_(<?php echo $obj['RoleModules_id']; ?>)" class="btn btn-danger btn-actions"><i class="bi bi-trash-fill"></i></button>
               </div>

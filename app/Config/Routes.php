@@ -39,9 +39,6 @@ $routes->group("dashboard", function ($routes) {
   
 });
 
-
-
-
 //---------------------------ROUTES CRUD USER----------------------------------------------------------------
 
 $routes->group("user", function($routes){
